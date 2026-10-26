@@ -1,0 +1,11 @@
+Job: rotation (PySpark 4.2.0, local[3], driver memory 2g)
+Input path: hdfs://localhost:9000/flightpulse/silver/flights/silver-m-*
+Duration: 230s
+Chained flights: 33904298
+Aircraft: 7439
+Links: 33896859
+Link status disagreement vs Hadoop, all aircraft (links): 1392
+Aircraft with tied schedule times: 3835 of 7439
+Link status disagreement vs Hadoop, tie-free aircraft (links): 0
+Carryover baseline disagreements: 4
+Note: PySpark counts the links; it does not write all 33.9M link lines the way the Hadoop job does.

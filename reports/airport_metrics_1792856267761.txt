@@ -1,0 +1,10 @@
+FlightPulse AirportMetricsJob run report
+==========================================
+Input path:   /flightpulse/silver/flights
+Output path:  /flightpulse/gold/airport_metrics
+Started:      2026-10-24T15:37:47.761742994Z
+Finished:     2026-10-24T15:41:48.683270544Z
+Duration:     240s
+Success:      true
+Reduce output records (distinct airports): 384
+Combiner input/output records: 69573064 / 42751

@@ -1,0 +1,10 @@
+job,what_it_does,input_path,output_path,duration_seconds,report_file
+DatasetAuditJob,Check every record is well-formed,/flightpulse/bronze,/flightpulse/gold/audit/all_years_run2,911,dataset_audit_1792854250725.txt
+NormalizeFlightsJob,Clean and standardise the data (Silver),/flightpulse/bronze,/flightpulse/silver/flights,322,normalize_1792855525996.txt
+AirportMetricsJob,Airport scorecards,/flightpulse/silver/flights,/flightpulse/gold/airport_metrics,240,airport_metrics_1792856267761.txt
+RouteMetricsJob,Route scorecards,/flightpulse/silver/flights,/flightpulse/gold/route_metrics,246,route_metrics_1792856615315.txt
+TemporalMetricsJob,When flights run late,/flightpulse/silver/flights,/flightpulse/gold/temporal_metrics_v2,349,temporal_metrics_1792914428664.txt
+DelayCauseMetricsJob,Why flights run late,/flightpulse/silver/flights,/flightpulse/gold/delay_cause_metrics_v2,343,delay_causes_1792956126598.txt
+RouteCarrierMetricsJob,Route x airline reliability,/flightpulse/silver/flights,/flightpulse/gold/route_carrier_metrics,491,route_carrier_1792914780035.txt
+AircraftRotationJob,Chain each plane's flights in order,/flightpulse/silver/flights,/flightpulse/gold/rotation_links,506,rotation_1792913403647.txt
+CarryoverAnalysisJob,Does lateness pass to the next flight,/flightpulse/gold/rotation_links,/flightpulse/gold/carryover_metrics_v2,105,carryover_1792956473645.txt

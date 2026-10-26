@@ -1,0 +1,11 @@
+FlightPulse DelayCauseMetricsJob run report
+==============================================
+Input path:   /flightpulse/silver/flights
+Output path:  /flightpulse/gold/delay_cause_metrics
+Started:      2026-10-25T07:39:18.784119418Z
+Finished:     2026-10-25T07:43:02.089177122Z
+Duration:     223s
+Success:      true
+Map input records:   34786532
+Map output records:  24215
+Reduce output rows:  420

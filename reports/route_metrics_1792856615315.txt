@@ -1,0 +1,10 @@
+FlightPulse RouteMetricsJob run report
+========================================
+Input path:   /flightpulse/silver/flights
+Output path:  /flightpulse/gold/route_metrics
+Started:      2026-10-24T15:43:35.315064614Z
+Finished:     2026-10-24T15:47:41.488859773Z
+Duration:     246s
+Success:      true
+Reduce output records (distinct routes): 8410
+Combiner input/output records: 34786532 / 369071

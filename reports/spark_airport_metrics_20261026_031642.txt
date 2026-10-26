@@ -1,0 +1,6 @@
+Job: airport_metrics (PySpark 4.2.0, local[3], driver memory 2g)
+Input path: hdfs://localhost:9000/flightpulse/silver/flights/silver-m-*
+Duration: 38s
+Output path: hdfs://localhost:9000/flightpulse/gold/spark/airport_metrics
+Compared with: hdfs://localhost:9000/flightpulse/gold/airport_metrics
+Disagreeing rows: 0

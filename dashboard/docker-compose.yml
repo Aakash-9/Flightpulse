@@ -1,0 +1,7 @@
+services:
+  dashboard:
+    build: .
+    image: flightpulse-dashboard:1.0
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

@@ -1,0 +1,10 @@
+experiment,setting,metric,value,source
+Compress the shuffle (AircraftRotationJob),off,seconds,1124,run job_1792904537211_0002 (3 reducers)
+Compress the shuffle (AircraftRotationJob),off,shuffle bytes,3177892230,run job_1792904537211_0002
+Compress the shuffle (AircraftRotationJob),on,seconds,506,run job_1792904537211_0004 (3 reducers)
+Compress the shuffle (AircraftRotationJob),on,shuffle bytes,706587932,run job_1792904537211_0004
+Compress the shuffle (AircraftRotationJob),both,output identical (MD5 a59c4810a2153fa8e928cd5c899ab587),yes,checked after both runs
+Combiner (AirportMetricsJob),records before combiner,records,69573064,Hadoop counter COMBINE_INPUT_RECORDS
+Combiner (AirportMetricsJob),records after combiner,records,42751,Hadoop counter COMBINE_OUTPUT_RECORDS
+Combiner (RouteMetricsJob),records before combiner,records,34786532,Hadoop counter COMBINE_INPUT_RECORDS
+Combiner (RouteMetricsJob),records after combiner,records,369071,Hadoop counter COMBINE_OUTPUT_RECORDS

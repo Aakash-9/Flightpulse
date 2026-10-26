@@ -1,0 +1,12 @@
+FlightPulse CarryoverAnalysisJob run report
+==============================================
+Input path:   /flightpulse/gold/rotation_links
+Output path:  /flightpulse/gold/carryover_metrics
+Started:      2026-10-25T07:01:58.559767175Z
+Finished:     2026-10-25T07:04:10.359828946Z
+Duration:     131s
+Success:      true
+Map input records:    33896859
+Map output records:   74934
+Reduce output rows:   3562
+Unparseable links:    0

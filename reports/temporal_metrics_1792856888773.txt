@@ -1,0 +1,9 @@
+FlightPulse TemporalMetricsJob run report
+===========================================
+Input path:   /flightpulse/silver/flights
+Output path:  /flightpulse/gold/temporal_metrics
+Started:      2026-10-24T15:48:08.773644024Z
+Finished:     2026-10-24T15:54:03.105457481Z
+Duration:     354s
+Success:      true
+Reduce output records (distinct time buckets): 103

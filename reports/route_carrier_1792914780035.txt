@@ -1,0 +1,11 @@
+FlightPulse RouteCarrierMetricsJob run report
+================================================
+Input path:   /flightpulse/silver/flights
+Output path:  /flightpulse/gold/route_carrier_metrics
+Started:      2026-10-25T07:53:00.035015087Z
+Finished:     2026-10-25T08:01:11.952803078Z
+Duration:     491s
+Success:      true
+Map output records:    68690834
+Combine out records:   3459759
+Reduce output rows:    72946

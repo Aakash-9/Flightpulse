@@ -1,0 +1,24 @@
+target/
+*.class
+*.jar
+!target/.gitkeep
+
+# Raw/derived data never belongs in git - lives in HDFS, not this repo.
+# (Leading slash: only the project-root data/ folder, NOT dashboard/data/ which the dashboard needs.)
+/data/
+dependency-reduced-pom.xml
+
+# Build/IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Logs
+*.log
+
+# Dashboard virtualenv / caches
+.venv/
+__pycache__/
+dashboard.zip
+.venv-spark/

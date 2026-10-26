@@ -1,0 +1,7 @@
+Job: delay_causes (PySpark 4.2.0, local[3], driver memory 2g)
+Input path: hdfs://localhost:9000/flightpulse/silver/flights/silver-m-*
+Duration: 98s
+Output path: hdfs://localhost:9000/flightpulse/gold/spark/delay_causes
+Compared with: hdfs://localhost:9000/flightpulse/gold/delay_cause_metrics_v2
+Keys compared: 13788
+Disagreeing rows: 0

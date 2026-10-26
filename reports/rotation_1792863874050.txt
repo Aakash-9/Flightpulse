@@ -1,0 +1,11 @@
+FlightPulse AircraftRotationJob run report
+=============================================
+Input path:     /flightpulse/silver/flights
+Output path:    /flightpulse/gold/rotation_links
+maxGapMinutes:  90
+Started:        2026-10-24T17:44:34.050504663Z
+Finished:       2026-10-24T17:51:28.618870294Z
+Duration:       414s
+Success:        false
+Reduce output records (candidate links): 0
+Map output records (eligible legs):      21894487

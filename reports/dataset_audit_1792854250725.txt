@@ -1,0 +1,25 @@
+FlightPulse DatasetAuditJob run report
+========================================
+Input path:   /flightpulse/bronze
+Output path:  /flightpulse/gold/audit/all_years_run2
+Started:      2026-10-24T15:04:10.725647682Z
+Finished:     2026-10-24T15:19:22.681215805Z
+Duration:     911s
+Success:      true
+Map input records:    34786598
+Map output records:   34786532
+Reduce output records:66
+
+Data-quality counters
+----------------------
+TOTAL_LINES                      34786532
+HEADER_ROWS                      66
+SCHEMA_MISMATCH                  0
+MALFORMED_ROWS                   0
+WRONG_COLUMN_COUNT               0
+VALID_RECORDS                    34786532
+MISSING_TAIL_NUM                 246797
+CANCELLED_RECORDS                801272
+DIVERTED_RECORDS                 80958
+MISSING_DEP_TIME_UNEXPECTED      0
+MISSING_ARR_TIME_UNEXPECTED      4

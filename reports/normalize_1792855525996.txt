@@ -1,0 +1,18 @@
+FlightPulse NormalizeFlightsJob run report
+============================================
+Input path:   /flightpulse/bronze
+Output path:  /flightpulse/silver/flights
+Started:      2026-10-24T15:25:25.996510627Z
+Finished:     2026-10-24T15:30:48.596836453Z
+Duration:     322s
+Success:      true
+
+Classification counters
+------------------------
+TOTAL_LINES              34786532
+HEADER_ROWS              66
+VALID                    33904302
+CANCELLED                801272
+DIVERTED                 80958
+MISSING_TAIL             0
+INVALID_QUARANTINED      0
